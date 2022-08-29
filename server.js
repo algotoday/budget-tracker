@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/cluster', {
+mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/cluster.music', {
   useNewUrlParser: true,
   useFindAndModify: false
 });
